@@ -36,7 +36,7 @@ public final class Employee {
                 "id=" + id +
                 ", employeeName='" + employeeName + '\'' +
                 ", contacts=" + contacts +
-                ", ratings=" + ratings +
+                ",\n ratings=" + ratings +
                 '}';
     }
 

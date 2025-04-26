@@ -1,7 +1,7 @@
 import java.time.Year;
 import java.util.Date;
 
-public class Rating {
+public final class Rating {
     private int id;
     private Year year;
     private char Rating;

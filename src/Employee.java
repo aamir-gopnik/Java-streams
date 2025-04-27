@@ -5,13 +5,11 @@ public final class Employee {
     private int id;
     private String employeeName;
     private List<String> contacts;
-    private List<Rating> ratings;
 
-    public Employee(int id, String employeeName, List<String> contacts, List<Rating> ratings) {
+    public Employee(int id, String employeeName, List<String> contacts) {
         this.id = id;
         this.employeeName = employeeName;
         this.contacts = contacts;
-        this.ratings = ratings;
     }
 
     public int getId() {
@@ -26,18 +24,12 @@ public final class Employee {
         return contacts;
     }
 
-    public List<Rating> getRatings() {
-        return ratings;
-    }
-
     @Override
     public String toString() {
         return "Employee{" +
                 "id=" + id +
                 ", employeeName='" + employeeName + '\'' +
                 ", contacts=" + contacts +
-                ",\n ratings=" + ratings +
                 '}';
     }
-
 }
